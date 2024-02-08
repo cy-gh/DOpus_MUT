@@ -192,7 +192,7 @@ MUT.prototype = {
     },
 
     assertEquals: function (/** @type {any} */ act, /** @type {any} */ exp, /** @type {string} */ msg) {
-        var _status = act == exp;
+        var _status = act === exp;
         var _msg = sprintf('%s%s %s - act=%s, exp=%s', (msg ? msg + ' -- ' : ''), 'assertEquals', (_status ? 'ok' : 'err'), act, exp);
         this.collectOrOutputOrAbort(_msg, _status);
     },
