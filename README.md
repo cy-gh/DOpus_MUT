@@ -103,6 +103,9 @@ You should use the version supplied with this script if you do not want to adjus
 
 I may or may not add some .assertXYZ syntactic sugar methods in the future, e.g. .assertNotUndefined()...
 
+## Output of the script-inline samples
+![./MUT_SampleOutput.png](./MUT_SampleOutput.png)
+
 ## DISCLAIMER
 I do not accept any liability, responsibility, whateverbility, you are on your own!**
 
